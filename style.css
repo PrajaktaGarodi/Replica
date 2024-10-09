@@ -1,3 +1,8 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -13,15 +18,17 @@
 .car1{
     background-image: radial-gradient(circle at center, #007cc4 29%, rgba(33, 48, 183, 0) 100%), url(Images/bg1.png);
     background-color: rgba(0, 195, 234, 0.95);
-    height: 80vh;
+    height: 100%;
     width: 100%;
     background-size: cover;
+    background-position: center;
+    background-repeat: none;
 }
 
 .car2{
     background-image: radial-gradient(circle at center, #007cc4 29%, rgba(33, 48, 183, 0) 100%);
     background-color: rgba(0, 195, 234, 0.95);
-    height: 80vh;
+    height: 100%;
     width: 100%;
 }
 
@@ -34,5 +41,38 @@
     min-height: 299.2px;
 }
 
+.txt h1{ 
+    line-height: 1.6em;
+    font-family: "Poppins", sans-serif;
+}
+
+.txt p
+{
+    color: #A8ADDE;
+    font-family: "Open Sans", sans-serif;
+}
+
+.page5 p{
+    font-family: poppins;
+    color: rgb(255, 136, 90);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.page5 h1{
+    font-family: poppins;
+    color: black;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 57px;
+}
+.page5 p:nth-child(3){
+    font-family: poppins;
+    color: rgb(12, 113, 195);
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 18px;
+}
 
 
