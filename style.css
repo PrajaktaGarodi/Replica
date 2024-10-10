@@ -33,7 +33,7 @@
 }
 
 
-.txt{
+.txt-1{
 
 
     background-image: linear-gradient(180deg, #150b72 0%, #5768d0 100%);
@@ -41,12 +41,13 @@
     min-height: 299.2px;
 }
 
-.txt h1{ 
+.txt-1 h2{ 
+    color: whitesmoke;
     line-height: 1.6em;
     font-family: "Poppins", sans-serif;
 }
 
-.txt p
+.txt-1 p
 {
     color: #A8ADDE;
     font-family: "Open Sans", sans-serif;
@@ -76,3 +77,51 @@
 }
 
 
+.page6 p{
+    font-family: poppins;
+    color: rgb(255, 136, 90);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.page6 h1{
+    font-family: poppins;
+    color: black;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 57px;
+}
+.page6 p:nth-child(3){
+    font-family: poppins;
+    color: rgb(12, 113, 195);
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+
+
+
+.page7 p{
+    font-family: poppins;
+    color: rgb(255, 136, 90);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.page7 h1{
+    font-family: poppins;
+    color: black;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 57px;
+}
+.page7 p:nth-child(3){
+    font-family: poppins;
+    color: rgb(12, 113, 195);
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 18px;
+}
